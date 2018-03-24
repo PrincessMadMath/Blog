@@ -6,6 +6,8 @@ import Header from '../components/Header'
 import './index.css'
 import '../styles/layout-override.css'
 
+require("prismjs/themes/prism-okaidia.css");
+
 const TemplateWrapper = ({ children }) => (
   <div>
     <Helmet
